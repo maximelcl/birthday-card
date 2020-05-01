@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ade1fd;
+    background-image: "https://media.giphy.com/media/l4KhTf1bkmfviq0Za/giphy.gif";
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+h1 {
+	width: 50%;
+	padding: 20px;
+	margin: 40px auto;
+	color: #352418;
+	background-color: #FFF;
+	border-radius: 5px;
+	border: 3px solid #352418;
+	text-align: center;
+}
+
+h1 span {
+	font-size: 0.6em;
+	padding: 0.2em;
+	margin: 1em;
+	background-color: #ade1fd;
+	color: #FFF;
+	border-radius: 0.6em;
+}
+
+h2 {
+	width: 50%;
+	padding: 20px;
+	margin: 40px auto;
+	color: #FFF;
+	border-radius: 5px;
+	border: 3px solid #352418;
+	text-align: center;
+	font-weight: 700;
+}
+
+#first {
+	display: none;
+	background-color: #7effcc;
+}
+
+#second {
+	display: none;
+	background-color: #ffe997;
+}
+
+#third {
+	display: none;
+	background-color: #fea1d4;
+}
+
+#cake {
+	font-size: 15em;
+	position: absolute;
+	top: -100px;
+	left: 35%;
+	-webkit-animation:spin 2s linear infinite;
+	-moz-animation:spin 2s linear infinite;
+	animation:spin 2s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
